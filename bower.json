@@ -1,7 +1,7 @@
 {
   "name": "next-get-key",
-  "version": "0.0.1",
-  "description": "Get key by value",
+  "version": "1.0.0",
+  "description": "Get key by value.",
   "main": "dist/next-get-key.js",
   "authors": [
     "afei"

@@ -1,5 +1,5 @@
 # next-get-key
-> Get key by value
+> Get key by value.
 
 ## installation
 ```bash
