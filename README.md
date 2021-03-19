@@ -15,7 +15,21 @@ npm install -S @jswork/next-get-key
 ```js
 import '@jswork/next-get-key';
 
-//DOCS here!
+const status = {
+  error: -1,
+  init: 0,
+  play: 1,
+  pause: 2,
+  loaded: 3,
+  ended: 4,
+};
+
+nxGetKey(status, -1);   // 'error'
+nxGetKey(status, 0);    // 'init'
+nxGetKey(status, 1);    // 'play'
+nxGetKey(status, 2);    // 'pause'
+nxGetKey(status, 3);    // 'loaded'
+nxGetKey(status, 4);    // 'ended'
 ```
 
 ## license
